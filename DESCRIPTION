@@ -1,21 +1,28 @@
 Package: musr
-Title: What the Package Does (One Line, Title Case)
+Title: MusicXML Parsing and Musical Analysis Tools
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Sam", "Barnette", , "sam.barnette2024@gmail.com", role = c("aut", "cre"))
+Description: Provides tools for parsing MusicXML files and computing musical features including pitch, contour, roughness, harmonicity, and diatonic deviation. Includes functions for time-based slicing, metric aggregation, and visualization of musical structure.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
 Imports:
-	xml2,
-	dplyr,
+    xml2,
+    dplyr,
+    tidyr,
+    ggplot2,
+    knitr,
+    music,
 	magrittr,
-	tidyr,
-	ggplot2,
-	uuid
+	xslt
+LazyData: true
+Suggests:
+    incon,
+    rmarkdown
+VignetteBuilder: knitr
 Depends: 
     R (>= 3.5)
-LazyData: true
+URL: https://github.com/barnetteS/musr
+BugReports: https://github.com/barnetteS/musr/issues
