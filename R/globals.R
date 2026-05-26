@@ -1,0 +1,14 @@
+utils::globalVariables(c(
+  "measure","time","midis","avg_midi","inside","prct",
+  "roughness","harmonicity","mod12_midis","notes_per_slice",
+  "part_id","staff","part_name","clef_sign","clef_line",
+  "midi_num","n_clefs","clef_info","score_name","h_midi",
+  "l_midi","isrest","active_slices","slices","total_time",
+  "activity_prct","note_count","rest_count","avg_notes_per_slice",
+  "midi_range","var_tension","var_stability","activity_time",
+  "note_id",
+  "step","octave","alter","dur_in_beats","tempo",
+  "id","title","composer","note_num","onset","offset",
+  "dur_in_div","fifths","mods","metrics",
+  "mod12","quant_group","plot_n","fill_group"
+))
